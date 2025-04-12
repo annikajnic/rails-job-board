@@ -3,6 +3,8 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
+Following this tutorial to create a Job Board app: https://www.youtube.com/watch?v=fmyvWz5TUWg&ab_channel=freeCodeCamp.org
+
 Things you may want to cover:
 
 * Ruby version
