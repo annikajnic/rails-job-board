@@ -27,3 +27,8 @@ https://medium.com/@noordean/setting-up-postgresql-with-rails-application-357fe5
 * Deployment instructions
 
 * ...
+
+
+Troubleshooting 
+Sprockets
+https://stackoverflow.com/questions/58339607/why-does-rails-fails-to-boot-with-expected-to-find-a-manifest-file-in-app-asse

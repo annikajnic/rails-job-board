@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :job_boards
   # get "home/index"
   get "home/about"
   root "home#index"

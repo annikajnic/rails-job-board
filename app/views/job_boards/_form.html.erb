@@ -1,0 +1,42 @@
+<%= form_with(model: job_board) do |form| %>
+  <% if job_board.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(job_board.errors.count, "error") %> prohibited this job_board from being saved:</h2>
+
+      <ul>
+        <% job_board.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :company_name, style: "display: block" %>
+    <%= form.text_field :company_name %>
+  </div>
+
+  <div>
+    <%= form.label :company_link, style: "display: block" %>
+    <%= form.text_field :company_link %>
+  </div>
+
+  <div>
+    <%= form.label :applied, style: "display: block" %>
+    <%= form.checkbox :applied %>
+  </div>
+
+  <div>
+    <%= form.label :position, style: "display: block" %>
+    <%= form.text_field :position %>
+  </div>
+
+  <div>
+    <%= form.label :date_posted, style: "display: block" %>
+    <%= form.date_field :date_posted %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>
